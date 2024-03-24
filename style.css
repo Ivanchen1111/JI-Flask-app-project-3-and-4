@@ -1,0 +1,55 @@
+/* Main body styling */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif; /* Modern, clean font for readability */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #f4f4f4; /* Neutral background color for minimalistic design */
+}
+
+/* Navigation bar styling */
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    background-color: #2d3436; /* Dark background color for contrast */
+    padding: 20px 0; /* Vertical padding for better visual spacing */
+    text-align: center; /* Center-align the list items */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items in a row */
+    margin: 0 25px; /* Horizontal spacing between menu items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove default text decoration */
+    color: white; /* Text color for readability */
+    font-size: 18px; /* Slightly larger font size for navigation */
+    transition: color 0.2s ease-in-out; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #a29bfe; /* Highlight menu item on hover */
+}
+
+/* Section styling */
+section {
+    margin: 40px auto; /* Centralize section with automatic horizontal margins */
+    width: 80%; /* Limit section width for better readability */
+    background-color: #ffffff; /* Clear background for content emphasis */
+    padding: 40px; /* Ample space inside sections */
+    border-radius: 10px; /* Soft rounded corners for modern look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth and distinction */
+}
+
+/* Footer styling */
+footer {
+    background-color: #ffffff; /* Dark footer background for visual separation */
+    color: white; /* Text color for contrast */
+    text-align: center; /* Centered footer content */
+    padding: 20px 10px; /* Padding for space around the content */
+    position: fixed; /* Keep footer at the bottom */
+    bottom: 0; /* Align to bottom */
+    width: 100%; /* Full width */
+}
+
+.
+
